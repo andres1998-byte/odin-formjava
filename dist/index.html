@@ -8,6 +8,52 @@
     </head>
     
     <body>
-    
+        <div class="container">
+            <h1> Sign Up Form</h1>
+            <form id="form">
+                <p>
+                    <label for="mail">
+                        <span>Email address: </span>
+                        <input type="email" id="mail" required minlength="8">
+                        <span class="error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="country">
+                        <span>Country: </span>
+                        <input type="text" id="country" required minlength="3">
+                        <span class="error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="zipcode">
+                        <span>ZIP Code: </span>
+                        <input type="text" id="zip" required>
+                        <span class="error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="password">
+                        <span>Password: </span>
+                        <input type="password" id="password" required>
+                        <span class="error"></span>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="confpassword">
+                        <span>Confirm Password: </span>
+                        <input type="password" id="confpassword" required>
+                        <span class="error"></span>
+                    </label>
+                </p>
+
+                <button type="submit" id="button">Submit Information</button>
+
+            </form>
+        </div>
     </body>
 </html>
